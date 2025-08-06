@@ -19,7 +19,8 @@ h2{
     "titulo precio galeria"
     "pagination"
     "footer";
-  grid-template-columns: 1fr ;
+  /* grid-template-columns: 100px 1fr; */
+  grid-template-rows: 100px 1fr;
   gap: 10px;
   box-sizing: border-box;
   }
@@ -33,6 +34,13 @@ h2{
   gap: 8px;
   margin: 0 auto;
 }
+
+.logo:hover{
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
 .btn-menu:hover{
         scale: 1.2;
     }
@@ -47,6 +55,7 @@ footer{
     margin-top: 10px;
     gap: 20px;
 }
+
 
 .pagination{
     display: flex;
@@ -74,4 +83,9 @@ footer{
     height: 100vh;
     grid-template-rows: 1fr;
 }
+.logo:hover{
+    font-size:60px;
+    border: 2px solid rgb(199, 222, 22);
+}
+
 }
