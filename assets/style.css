@@ -3,6 +3,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    animation: color 2.5s infinite alternate;
 
 }
 h2{
